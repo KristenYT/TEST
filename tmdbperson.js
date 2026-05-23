@@ -1,14 +1,14 @@
 const TMDB_BASE_URL = "https://www.themoviedb.org";
-const DEFAULT_LANGUAGE = "zh-CN";
+const DEFAULT_LANGUAGE = "zh-TW";
 
 WidgetMetadata = {
-  id: "forward.tmdbperson",
+  id: "AI.tmdbperson",
   title: "TMDB 演员片单",
   version: "1.0.0",
   requiredVersion: "0.0.1",
   description: "搜索 TMDB 演员，并获取演员参演过的电影和剧集片单",
-  author: "Forward",
-  site: "https://github.com/InchStudio/ForwardWidgets",
+  author: "AI",
+  site: "https:",
   modules: [
     {
       id: "actorCredits",
